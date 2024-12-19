@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  width: 60%;
+  margin: auto;
+}
+
+.name {
+  width: 25%;
+}
+.name h1 {
+  display: flex;
+  color: #8d9c7a;
+}
+
+h2 {
+  color: #8d9c7a;
+}
+
+h3 {
+  color: #8d9c7a;
+}
+
+nav {
+  display: flex;
+  width: 75%;
+  justify-content: end;
+  align-items: center;
+}
+nav a:hover {
+  font-weight: bold;
+}
+nav a {
+  margin-left: 10px;
+  color: #8d9c7a;
+}
+
+.avatar {
+  height: 30vh;
+  overflow: hidden;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2em;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+.introduction .imgCat {
+  display: flex;
+  width: 100%;
+}
+.introduction .introTxt {
+  text-align: center;
+}
+.introduction .introTxt .introParagraph {
+  font-style: oblique;
+}
+
+.formationEtExperiences {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+.formationEtExperiences .formation {
+  width: 50%;
+  padding: 2em;
+}
+.formationEtExperiences .experiences {
+  width: 50%;
+  padding: 2em;
+}
+
+.realisations {
+  display: flex;
+  flex-direction: column;
+}
+.realisations h2 {
+  width: 100%;
+}
+.realisations .row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+.realisations .row .col1 {
+  flex-direction: column;
+}
+.realisations .row .col2 {
+  flex-direction: column;
+}
+
+.btnSend {
+  background-color: #8d9c7a;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  background-color: #8d9c7a;
+  margin: 10% 0 20% 0;
+}
+
+/*# sourceMappingURL=style.css.map */
