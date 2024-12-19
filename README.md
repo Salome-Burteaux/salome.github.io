@@ -1,5 +1,4 @@
 - **Cloner un dépôt distant :**
-
 git clone <lien SSH>
 
 - **Stage les fichiers :**
